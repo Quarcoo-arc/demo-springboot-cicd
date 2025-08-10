@@ -10,6 +10,6 @@ public class DemoRestController {
 
     @GetMapping
     public String showSiteHealth () {
-        return "App is Live!!";
+        return "CI/CD is running 🚀";
     }
 }
